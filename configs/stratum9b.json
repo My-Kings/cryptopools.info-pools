@@ -19,7 +19,7 @@
     "blockRefreshInterval": "120ms",
     "stateUpdateInterval": "3s",
     "difficulty": 9000000000,
-    "stratumHostname": "nicehash",
+    "stratumHostname": "USA nicehash",
     "healthCheck": true,
     "maxFails": 100,
     "hashrateExpiration": "3h",
