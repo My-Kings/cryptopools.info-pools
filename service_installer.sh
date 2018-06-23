@@ -4,12 +4,38 @@ coin="moac"
 user="brian"
 config_dir="/home/$user/cryptopools.info-pools/configs"
 poolbinary="/home/$user/cryptopools.info-pools/build/bin/open-callisto-pool"
+nodename="moac"
+nodepath="/home/$user/cryptopools.info-pools/node/$nodename"
+attach="/home/$user/cryptopools.info-pools/node/$nodename/attach.sh"
+
+
 
 if [ ! -e $config_dir ] || [ ! -e $poolbinary ]
 then
 echo missing config dir or pool binary, exiting
 exit 1
 fi
+
+
+#install node and attach script
+cp -f $nodepath /usr/local/bin/
+cp -f $attach /usr/local/bin/
+
+echo "
+[Unit]
+Description=MOAC node for Pool
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/moac --maxpeers 100 --extradata "CrytoPools.info" --identity "CryptoPools.info - Phatblinkie@hotmail.com for info" --rpc --rpcaddr "127.0.0.1" --rpcport "8545" --unlock="0x5fb865cd52f1dd7e20e71af05a8abd72ff37549c" --password="/home/brian/.walletpass"
+User=brian
+
+[Install]
+WantedBy=multi-user.target
+">/etc/systemd/system/$coin.service
+
+
+
 
 echo "
 [Unit]
@@ -90,12 +116,25 @@ WantedBy=multi-user.target
 
 systemctl daemon-reload
 
+systemctl enable $coin
 systemctl enable $coin-api
 systemctl enable $coin-stratum2b
 systemctl enable $coin-stratum4b
 systemctl enable $coin-stratum9b
 systemctl enable $coin-unlocker
 systemctl enable $coin-payout
+
+systemctl start $coin
+
+for i in {20..01}
+do
+echo -e "sleeping for $i seconds to let node start up first"
+sleep 1
+clear
+done
+
+echo ok starting other services
+
 
 systemctl start $coin-api
 systemctl start $coin-stratum2b
