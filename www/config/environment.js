@@ -15,23 +15,23 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//clo.cryptomena.io/',
+      ApiUrl: '//moac.cryptopools.info/',
       // HTTP mining endpoint
-      HttpHost: 'https://clo.cryptomena.io',
+      HttpHost: 'https://moac.cryptopools.info',
       HttpPort: 8882,
 
       // Stratum mining endpoint
-      StratumHost: 'clo.cryptomena.io',
+      StratumHost: 'moac.cryptopools.info',
       StratumPort: 8002,
 
       // Fee and payout details
-      PoolFee: '0.5%',
-      PayoutThreshold: '1.0 CLO',
+      PoolFee: '1.0%',
+      PayoutThreshold: '0.3 MOAC',
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 14.4,
-      BlockReward: 420,
-      Unit: 'CLO',
+      BlockReward: 2,
+      Unit: 'MOAC',
 
     }
   };

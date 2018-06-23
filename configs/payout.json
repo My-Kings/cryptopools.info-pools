@@ -1,8 +1,8 @@
 {
   "threads": 2,
-  "coin": "clo",
+  "coin": "moac",
   "name": "main",
-  "pplns": 9000,
+  "pplns": 2000,
   "proxy": {
     "enabled": false,
     "listen": "0.0.0.0:8888",
@@ -83,8 +83,8 @@
   },
 
   "unlocker": {
-    "enabled": false,
-    "poolFee": 0.5,
+    "enabled": true,
+    "poolFee": 1.0,
     "poolFeeAddress": "",
     "donate": true,
     "depth": 120,
@@ -97,15 +97,15 @@
 
   "payouts": {
     "enabled": true,
-    "requirePeers": 8,
+    "requirePeers": 2,
     "interval": "3h",
     "daemon": "http://127.0.0.1:8545",
     "timeout": "120s",
-    "address": "0x",
+    "address": "0x5fb865cd52f1dd7e20e71af05a8abd72ff37549c",
     "autoGas": true,
     "gas": "21000",
     "gasPrice": "50000000000",
-    "threshold": 1000000000,
+    "threshold": 300000000,
     "bgsave": true,
     "concurrentTx": 5
   }

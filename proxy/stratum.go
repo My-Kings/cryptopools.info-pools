@@ -8,7 +8,7 @@ import (
 	"log"
 	"net"
 	"time"
-
+	"strings"
 	"github.com/chainkorea/open-callisto-pool/util"
 )
 
@@ -102,8 +102,9 @@ func (s *ProxyServer) handleTCPClient(cs *Session) error {
 
 func (cs *Session) handleTCPMessage(s *ProxyServer, req *StratumReq) error {
 	// Handle RPC methods
-	switch req.Method {
-	case "eth_submitLogin":
+	mcreqMethed := strings.Replace(req.Method, "eth_", "mc_",1)
+	switch mcreqMethed {
+	case "mc_submitLogin":
 		var params []string
 		err := json.Unmarshal(req.Params, &params)
 		if err != nil {
@@ -115,13 +116,13 @@ func (cs *Session) handleTCPMessage(s *ProxyServer, req *StratumReq) error {
 			return cs.sendTCPError(req.Id, errReply)
 		}
 		return cs.sendTCPResult(req.Id, reply)
-	case "eth_getWork":
+	case "mc_getWork":
 		reply, errReply := s.handleGetWorkRPC(cs)
 		if errReply != nil {
 			return cs.sendTCPError(req.Id, errReply)
 		}
 		return cs.sendTCPResult(req.Id, &reply)
-	case "eth_submitWork":
+	case "mc_submitWork":
 		var params []string
 		err := json.Unmarshal(req.Params, &params)
 		if err != nil {
@@ -133,10 +134,10 @@ func (cs *Session) handleTCPMessage(s *ProxyServer, req *StratumReq) error {
 			return cs.sendTCPError(req.Id, errReply)
 		}
 		return cs.sendTCPResult(req.Id, &reply)
-	case "eth_submitHashrate":
+	case "mc_submitHashrate":
 		return cs.sendTCPResult(req.Id, true)
 	default:
-		errReply := s.handleUnknownRPC(cs, req.Method)
+		errReply := s.handleUnknownRPC(cs, mcreqMethed)
 		return cs.sendTCPError(req.Id, errReply)
 	}
 }
