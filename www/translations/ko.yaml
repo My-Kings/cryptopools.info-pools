@@ -139,19 +139,20 @@ miners:
   miners: 마이너 현황
 
 wallet:
-  dapp_html: <a href="https://ethereum.org/">https://ethereum.org/</a>
-  online_html: <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com</a> Online wallet at myetherwallet.com
+  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
+  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> 공식 온라인 지갑 지갑
 
 errors:
-  header: 일시적인 API 연결 끊김
-  message: 보통 일시적인 문제이며, 채굴에는 영향을 미치지 않습니다.
+  header: 통계 API 일시적으로 아래로
+  message: 일반적으로 일시적인 문제이며 채광은 영향을받지 않습니다.
 
 links:
-  blockExplorerLink: 'https://cloexplorer.org/'
-  blockExplorerLink_tx: 'https://cloexplorer.org/tx/'
-  blockExplorerLink_uncle: 'https://cloexplorer.org/uncle'
-  blockExplorerLink_block: 'https://cloexplorer.org/block/'
-  blockExplorerLink_address: 'https://cloexplorer.org/addr/'
+  blockExplorerLink: 'https://poseidon.pirl.io/explorer/'
+  blockExplorerLink_tx: 'https://poseidon.pirl.io/explorer/transaction/'
+  blockExplorerLink_uncle: 'https://poseidon.pirl.io/explorer/block/'
+  blockExplorerLink_block: 'https://poseidon.pirl.io/explorer/block/'
+blockExplorerLink_address: 'https://poseidon.pirl.io/explorer/address/'
+
 
 footer:
-  copyrights: '&copy; Brough to you by <a href="https://t.me/cryptomena_io" target="_blank"><i class="fa fa-telegram" style="color:#0088cc"></i> Cryptomena.io</a> | <strong>Donations:</strong><a href="https://etherscan.io/address/0x1ee22c7176497065DA26B71bcf2C499e52721ce3" rel="nofollow" target="_blank">0x1ee22c7176497065DA26B71bcf2C499e52721ce3</a>'
+  copyrights: '&copy; Brough to you by <a href="https://CryptoPools.info" target="_blank">Cryptopools.info</a>'

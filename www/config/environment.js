@@ -15,19 +15,19 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//clo.cryptomena.io/',
-      PoolName: 'CLO Pool',
-      CompanyName: 'cryptomena.io',
+      ApiUrl: '//pirl.cryptopools.info/',
+      PoolName: 'PIRL Pool',
+      CompanyName: 'CryptoPools.info',
       // HTTP mining endpoint
-      HttpHost: 'https://clo.cryptomena.io',
+      HttpHost: 'https://Pirl.CryptoPools.info',
       HttpPort: 8882,
 
       // Stratum mining endpoint
-      StratumHost: 'clo.cryptomena.io',
+      StratumHost: 'Pirl.CryptoPools.info',
       StratumPort: 8002,
 
       // Fee and payout details
-      PoolFee: '0.5%',
+      PoolFee: '1.0%',
       PayoutThreshold: '1.0',
       PayoutInterval: '3h',
 

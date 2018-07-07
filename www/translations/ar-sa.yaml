@@ -142,19 +142,20 @@ miners:
   miners: المعدنين
 
 wallet:
-  dapp_html: <a href="https://ethereum.org/">https://ethereum.org/</a>
-  online_html: <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com</a> Online wallet at myetherwallet.com
+  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
+  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> official online pirl wallet
 
 errors:
   header: الموقع متوقف مؤقتاً
   message: بالعادة هذه مشكلة مؤقتة والتعدين لا يتأثر.
 
+
 links:
-  blockExplorerLink: 'https://cloexplorer.org/'
-  blockExplorerLink_tx: 'https://cloexplorer.org/tx/'
-  blockExplorerLink_uncle: 'https://cloexplorer.org/uncle'
-  blockExplorerLink_block: 'https://cloexplorer.org/block/'
-  blockExplorerLink_address: 'https://cloexplorer.org/addr/'
+  blockExplorerLink: 'https://poseidon.pirl.io/explorer/'
+  blockExplorerLink_tx: 'https://poseidon.pirl.io/explorer/transaction/'
+  blockExplorerLink_uncle: 'https://poseidon.pirl.io/explorer/block/'
+  blockExplorerLink_block: 'https://poseidon.pirl.io/explorer/block/'
+  blockExplorerLink_address: 'https://poseidon.pirl.io/explorer/address/'
 
 footer:
-  copyrights: '&copy; Brough to you by <a href="https://t.me/cryptomena_io" target="_blank"><i class="fa fa-telegram" style="color:#0088cc"></i> Cryptomena.io</a> | <strong>Donations:</strong><a href="https://etherscan.io/address/0x1ee22c7176497065DA26B71bcf2C499e52721ce3" rel="nofollow" target="_blank">0x1ee22c7176497065DA26B71bcf2C499e52721ce3</a>'
+  copyrights: '&copy; Brough to you by <a href="http://cryptopools.info" target="_blank"> CryptoPools.info</a> | <strong>Discod:</strong><a href="https://discord.gg/bcFBfyw" rel="nofollow" target="_blank"> Chat for Pool support</a>'
