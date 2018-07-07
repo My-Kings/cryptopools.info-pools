@@ -83,7 +83,7 @@ account:
   long_average_abbrv: 3시간
   no_workers_online: 온라인상태의 워커가 없습니다
   notice: 주의사항
-  notice_html: 쉐어 입력이 충분할 때까지 평균 해시량은 점차 조정됩니다.<br/>약 30분(단기)와 3시간(장기)의 두 가지 계산 기간이 있습니다.<br/>만약 워커가 단기의 1/2(예: 15분)동안 쉐어를 제출하지 않을 경우, 이상이 있는 워커는 테이블에 표시되어 관리가 쉬워집니다.
+  notice_html: '쉐어 입력이 충분할 때까지 평균 해시량은 점차 조정됩니다.<br/>약 30분(단기)와 3시간(장기)의 두 가지 계산 기간이 있습니다.<br/>만약 워커가 단기의 1/2(예: 15분)동안 쉐어를 제출하지 않을 경우, 이상이 있는 워커는 테이블에 표시되어 관리가 쉬워집니다.'
   json_api_url: 워커 상태에 대한 JSON API 링크
 
 payout:
@@ -139,12 +139,12 @@ miners:
   miners: 마이너 현황
 
 wallet:
-  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
-  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> 공식 온라인 지갑 지갑
+  dapp_html: '<a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>'
+  online_html: '<a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> 공식 온라인 지갑 지갑'
 
 errors:
-  header: 통계 API 일시적으로 아래로
-  message: 일반적으로 일시적인 문제이며 채광은 영향을받지 않습니다.
+  header: '통계 API 일시적으로 아래로'
+  message: '일반적으로 일시적인 문제이며 채광은 영향을받지 않습니다.'
 
 links:
   blockExplorerLink: 'https://poseidon.pirl.io/explorer/'
