@@ -33,8 +33,8 @@ module.exports = function(environment) {
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 14.4,
-      BlockReward: 420,
-      Unit: 'CLO',
+      BlockReward: 10,
+      Unit: 'PIRL',
 
     }
   };
