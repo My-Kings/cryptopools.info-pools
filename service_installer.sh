@@ -2,8 +2,8 @@
 #will make the services for the pool, based on the pool exe location of /usr/local/bin/poolbin
 user="brian"
 coin="pirl"
-config_dir="/home/$user/open-callisto-pool/configs"
-poolbinary="/home/$user/open-callisto-pool/build/bin/open-callisto-pool"
+config_dir="/home/$user/cryptopools.info-pools/configs"
+poolbinary="/home/$user/cryptopools.info-pools/build/bin/open-callisto-pool"
 
 if [ ! -e $config_dir ] || [ ! -e $poolbinary ]
 then
