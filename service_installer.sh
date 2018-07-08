@@ -12,7 +12,7 @@ exit 1
 fi
 
 #rename the callisto binary to pirl
-pirlbinary="/home/$user/open-callisto-pool/build/bin/open-pirl-pool"
+pirlbinary="/home/$user/cryptopools.info-pools/build/bin/open-pirl-pool"
 cp -f $poolbinary $pirlbinary
 
 poolbinary=$pirlbinary
