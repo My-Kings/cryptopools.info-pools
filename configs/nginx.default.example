@@ -2,10 +2,10 @@ server {
         listen 80;
         listen [::]:80;
 
-        root /home/pirl/www;
+        root /home/akroma/www;
         index index.html index.htm index.nginx-debian.html;
 
-        server_name pirl.cryptopools.info;
+        server_name akroma.cryptopools.info;
 
         location / {
                 try_files $uri $uri/ =404;
