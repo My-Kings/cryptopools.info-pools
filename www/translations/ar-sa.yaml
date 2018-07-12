@@ -142,20 +142,19 @@ miners:
   miners: المعدنين
 
 wallet:
-  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
-  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> official online pirl wallet
+  dapp_html: coming soon
+  online_html: <a href="https://wallet.akroma.io/">https://wallet.akroma.io/</a> official online wallet
 
 errors:
   header: الموقع متوقف مؤقتاً
   message: بالعادة هذه مشكلة مؤقتة والتعدين لا يتأثر.
 
-
 links:
-  blockExplorerLink: 'https://poseidon.pirl.io/explorer/'
-  blockExplorerLink_tx: 'https://poseidon.pirl.io/explorer/transaction/'
-  blockExplorerLink_uncle: 'https://poseidon.pirl.io/explorer/block/'
-  blockExplorerLink_block: 'https://poseidon.pirl.io/explorer/block/'
-  blockExplorerLink_address: 'https://poseidon.pirl.io/explorer/address/'
+  blockExplorerLink: 'https://akroma.io/en/explorer/'
+  blockExplorerLink_tx: 'https://akroma.io/explorer/transaction/'
+  blockExplorerLink_uncle: 'https://akroma.io/explorer/block/'
+  blockExplorerLink_block: 'https://akroma.io/explorer/block/'
+  blockExplorerLink_address: 'https://akroma.io/explorer/address/'
 
 footer:
   copyrights: '&copy; Brough to you by <a href="http://cryptopools.info" target="_blank"> CryptoPools.info</a> | <strong>Discod:</strong><a href="https://discord.gg/bcFBfyw" rel="nofollow" target="_blank"> Chat for Pool support</a>'
