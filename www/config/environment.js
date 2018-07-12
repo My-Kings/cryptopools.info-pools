@@ -15,15 +15,15 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//pirl.cryptopools.info/',
-      PoolName: 'PIRL Pool',
+      ApiUrl: '//akroma.cryptopools.info/',
+      PoolName: 'AKROMA Pool',
       CompanyName: 'CryptoPools.info',
       // HTTP mining endpoint
-      HttpHost: 'https://Pirl.CryptoPools.info',
+      HttpHost: 'https://Akroma.CryptoPools.info',
       HttpPort: 8882,
 
       // Stratum mining endpoint
-      StratumHost: 'Pirl.CryptoPools.info',
+      StratumHost: 'Akroma.CryptoPools.info',
       StratumPort: 8002,
 
       // Fee and payout details
@@ -32,9 +32,9 @@ module.exports = function(environment) {
       PayoutInterval: '3h',
 
       // For network hashrate (change for your favourite fork)
-      BlockTime: 14.4,
-      BlockReward: 10,
-      Unit: 'PIRL',
+      BlockTime: 13,
+      BlockReward: 7,
+      Unit: 'AKA',
 
     }
   };
