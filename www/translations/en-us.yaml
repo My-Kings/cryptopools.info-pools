@@ -19,7 +19,6 @@ menu:
 lang:
   arabic: عربي
   english: English
-  korean: Korean
 
 home:
   min_payout_threshold: Min. payout threshold
@@ -97,7 +96,7 @@ payout:
   no_payouts_yet: No payouts yet
 
 block:
-  pool_rewards: Pool always pay full block reward including TX fees and uncle rewards.
+  pool_rewards: Please see the block history here
   pool_notice:
     html: Block maturity requires <em style="text-decoration:underline">up to</em> <span class="label label-success">{success}</span> blocks. Usually it's less indeed.
   blocks: Blocks
@@ -142,19 +141,19 @@ miners:
   miners: Miners
 
 wallet:
-  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
-  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> official online pirl wallet
+  dapp_html: coming soon
+  online_html: <a href="https://wallet.akroma.io/">https://wallet.akroma.io/</a> official online wallet
 
 errors:
   header: Stats API Temporarily Down
   message: Usually it's just a temporal issue and mining is not affected.
 
 links:
-  blockExplorerLink: 'https://poseidon.pirl.io/explorer/'
-  blockExplorerLink_tx: 'https://poseidon.pirl.io/explorer/transaction/'
-  blockExplorerLink_uncle: 'https://poseidon.pirl.io/explorer/block/'
-  blockExplorerLink_block: 'https://poseidon.pirl.io/explorer/block/'
-  blockExplorerLink_address: 'https://poseidon.pirl.io/explorer/address/'
+  blockExplorerLink: 'https://akroma.io/en/explorer/'
+  blockExplorerLink_tx: 'https://akroma.io/explorer/transaction/'
+  blockExplorerLink_uncle: 'https://akroma.io/explorer/block/'
+  blockExplorerLink_block: 'https://akroma.io/explorer/block/'
+  blockExplorerLink_address: 'https://akroma.io/explorer/address/'
 
 footer:
   copyrights: '&copy; Brough to you by <a href="http://cryptopools.info" target="_blank"> CryptoPools.info</a> | <strong>Discod:</strong><a href="https://discord.gg/bcFBfyw" rel="nofollow" target="_blank"> Chat for Pool support</a>'
