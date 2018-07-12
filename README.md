@@ -1,3 +1,5 @@
+Please use the upstream source, this pool is customized for cryptopools
+
 ## Open Source Callisto (CLO) Mining Pool
 
 ![Main page of open-callisto-pool](https://raw.githubusercontent.com/ethpool-update-project/open-callisto-pool/master/misc/pool.PNG)
@@ -109,7 +111,7 @@ Register pool account and open wallet for transaction. This process is always re
 
 ### Install Callisto Pool
 
-    $ git clone https://github.com/chainkorea/open-callisto-pool
+    $ git clone -b akroma https://github.com/phatblinkie/cryptopools.info-pools.git
     $ cd open-callisto-pool
     $ make all
 
