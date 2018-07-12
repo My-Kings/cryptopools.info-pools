@@ -1,13 +1,14 @@
 #!/bin/bash
-#will make the services for the pool, based on the pool exe location of /usr/local/bin/poolbin
-user="brian"
-coin="pirl"
+#will make the services for the pool, based on the pool exe location of $poolbinary
+user="akroma"
+coin="akroma"
 config_dir="/home/$user/cryptopools.info-pools/configs"
 poolbinary="/home/$user/cryptopools.info-pools/build/bin/open-callisto-pool"
 
 if [ ! -e $config_dir ] || [ ! -e $poolbinary ]
 then
 echo missing config dir or pool binary, exiting
+echo have you run make yet?
 exit 1
 fi
 
@@ -110,5 +111,5 @@ systemctl start $coin-stratum9b
 systemctl start $coin-unlocker
 systemctl start $coin-payout
 
-#these working depend on your pirl node already being configured and running
+#these working depend on your  node already being configured and running
 
