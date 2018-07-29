@@ -2,9 +2,6 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div dir="rtl" class="alert alert-info text-center join_telegram">
-          شاركونا في  <a class="alert-link" href="https://t.me/joinchat/HgUfI01QIGBk8Sm1_cODFg">قناة التلقرام (عربي) <i class="fa fa-telegram" style="color:#0088cc"></i></a> الخاصة بنا!
-        </div>
       </div>
     </div>
     <div class="row">
@@ -61,7 +58,8 @@
           <br><br>
           <b>{{t "home.settings.stratum_mining"}}:</b>
           <br><br>
-          <code>stratum+tcp://{{config.StratumHost}}:8002</code>
+          <code>stratum+tcp://{{config.StratumHost}}:9002</code><br>
+	  <code>stratum+tcp://roller-EU.cryptopools.info:9002</code>
         </h5>
       </div>
       <div class="col-md-4 col-sm-12">
@@ -72,7 +70,8 @@
           <br><br>
           <b>{{t "home.settings.stratum_mining"}}:</b>
           <br><br>
-          <code>stratum+tcp://{{config.StratumHost}}:8004</code>
+          <code>stratum+tcp://{{config.StratumHost}}:9004</code><br>
+	  <code>stratum+tcp://roller-EU.cryptopools.info:9004</code>
         </h5>
 
       </div>
@@ -84,7 +83,8 @@
           <br><br>
           <b>{{t "home.settings.stratum_mining"}}:</b>
           <br><br>
-          <code>stratum+tcp://{{config.StratumHost}}:8009</code>
+          <code>stratum+tcp://{{config.StratumHost}}:9009</code><br>
+          <code>stratum+tcp://roller-EU.cryptopools.info:9009</code>
         </h5>
       </div>
     </div>
@@ -110,7 +110,7 @@
               </div>
               <div id="win_collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                      <input type="text" class="form-control" value="EthDcrMiner64.exe -epool stratum+tcp://clo.cryptomena.io:8002 -esm 0 -ewal &lt;address&gt; -eworker &lt;worker&gt; -allcoins 1 -allpools 1">
+                      <input type="text" class="form-control" value="EthDcrMiner64.exe -epool stratum+tcp://roller.cryptopools.info:9002 -esm 0 -ewal &lt;address&gt; -eworker &lt;worker&gt; -allcoins 1 -allpools 1">
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@
               </div>
               <div id="win_collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
-                      <input type="text" class="form-control" value="ethminer.exe -U -SP 1 -S clo.cryptomena.io:8004 -O &lt;address&gt;.&lt;worker&gt; --farm-recheck 1000 -v 2">
+                      <input type="text" class="form-control" value="ethminer.exe -U -SP 1 -S roller.cryptopools.info:9004 -O &lt;address&gt;.&lt;worker&gt; --farm-recheck 1000 -v 2">
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@
               </div>
               <div id="smos_collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                      <input type="text" class="form-control" value="-wd 1 -r 1 -epool stratum+tcp://clo.cryptomena.io:8002 -ewal &lt;address&gt; -eworker $rigName -esm 0 -epsw x -allpools 1 -asm 1 -mode 1">
+                      <input type="text" class="form-control" value="-wd 1 -r 1 -epool stratum+tcp://roller.cryptopools.info:9002 -ewal &lt;address&gt; -eworker $rigName -esm 0 -epsw x -allpools 1 -asm 1 -mode 1">
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@
               </div>
               <div id="smos_collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
-                      <input type="text" class="form-control" value="-U -P stratum1+tcp://&lt;address&gt;.$rigName@clo.cryptomena.io:8002 --farm-recheck 200 --api-port -3333">
+                      <input type="text" class="form-control" value="-U -P stratum1+tcp://&lt;address&gt;.$rigName@roller.cryptopools.info:9002 --farm-recheck 200 --api-port -3333">
                 </div>
               </div>
             </div>

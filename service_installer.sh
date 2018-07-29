@@ -2,8 +2,8 @@
 #will make the services for the pool, based on the pool exe location of /usr/local/bin/poolbin
 user="roller"
 coin="roller"
-config_dir="/home/$user/open-callisto-pool/configs"
-poolbinary="/home/$user/open-callisto-pool/build/bin/open-callisto-pool"
+config_dir="/home/$user/cryptopools.info-pools/configs"
+poolbinary="/home/$user/cryptopools.info-pools/build/bin/open-callisto-pool"
 
 
 if [ ! -e $config_dir ] || [ ! -e $poolbinary ]
@@ -12,7 +12,12 @@ echo missing config dir or pool binary, exiting
 exit 1
 fi
 
-wget -O getnode https://github.com/roller-project/roller/releases/download/v1.0.0/linux-amd64.zip
+rm -f getnode.zip
+rm -rf linux-amd64
+wget -O getnode.zip https://github.com/roller-project/roller/releases/download/v1.0.0/linux-amd64.zip
+unzip getnode.zip
+cp linux-amd64/geth /usr/local/bin/geth-roller.0.1.1
+chmod 0755 /usr/local/bin/geth-roller.0.1.1
 
 
 echo "
