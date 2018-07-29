@@ -153,7 +153,7 @@ links:
   blockExplorerLink_tx: 'http://explorer.roller.today:3000/tx/'
   blockExplorerLink_uncle: 'http://explorer.roller.today:3000/block/'
   blockExplorerLink_block: 'http://explorer.roller.today:3000/block/'
-  blockExplorerLink_address: 'http://explorer.roller.today:3000/address/'
+  blockExplorerLink_address: 'http://explorer.roller.today:3000/addr/'
 
 footer:
   copyrights: '&copy; Brough to you by <a href="cryptopools.info" target="_blank"> Cryptopools.info</a>'
