@@ -5,13 +5,13 @@
   "pplns": 9000,
   "proxy": {
     "enabled": true,
-    "listen": "0.0.0.0:9889",
+    "listen": "0.0.0.0:9989",
     "limitHeadersSize": 1024,
     "limitBodySize": 256,
     "behindReverseProxy": false,
     "stratum": {
       "enabled": true,
-      "listen": "0.0.0.0:9009",
+      "listen": "0.0.0.0:9109",
       "timeout": "120s",
       "maxConn": 8192
     },
@@ -19,7 +19,7 @@
     "blockRefreshInterval": "120ms",
     "stateUpdateInterval": "3s",
     "difficulty": 9000000000,
-    "stratumHostname": "nicehash",
+    "stratumHostname": "nicehash-eu",
     "healthCheck": true,
     "maxFails": 100,
     "hashrateExpiration": "3h",

@@ -5,13 +5,13 @@
   "pplns": 9000,
   "proxy": {
     "enabled": true,
-    "listen": "0.0.0.0:9882",
+    "listen": "0.0.0.0:9982",
     "limitHeadersSize": 1024,
     "limitBodySize": 256,
     "behindReverseProxy": false,
     "stratum": {
       "enabled": true,
-      "listen": "0.0.0.0:9002",
+      "listen": "0.0.0.0:9102",
       "timeout": "120s",
       "maxConn": 8192
     },
@@ -19,7 +19,7 @@
     "blockRefreshInterval": "120ms",
     "stateUpdateInterval": "3s",
     "difficulty": 2000000000,
-    "stratumHostname": "usa",
+    "stratumHostname": "EU",
     "healthCheck": true,
     "maxFails": 100,
     "hashrateExpiration": "3h",

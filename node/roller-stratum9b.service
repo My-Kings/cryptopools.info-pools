@@ -5,7 +5,7 @@ Description=roller-stratum9b
 
 [Service]
 Type=simple
-ExecStart=/home/roller/cryptopools.info-pools/build/bin/open-callisto-pool /home/roller/cryptopools.info-pools/configs/stratum9b.json
+ExecStart=/home/roller/cryptopools.info-pools/build/bin/open-callisto-pool /home/roller/cryptopools.info-pools/node/configs/stratum9b.json
 
 [Install]
 WantedBy=multi-user.target
