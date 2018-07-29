@@ -15,26 +15,26 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//clo.cryptomena.io/',
-      PoolName: 'CLO Pool',
-      CompanyName: 'cryptomena.io',
+      ApiUrl: '//roller.cryptopools.info/',
+      PoolName: 'ROLLER Pool',
+      CompanyName: 'CryptoPools.info',
       // HTTP mining endpoint
-      HttpHost: 'https://clo.cryptomena.io',
-      HttpPort: 8882,
+      HttpHost: 'https://roller.cryptopools.info',
+      HttpPort: 9882,
 
       // Stratum mining endpoint
-      StratumHost: 'clo.cryptomena.io',
-      StratumPort: 8002,
+      StratumHost: 'roller.cryptopools.info',
+      StratumPort: 9002,
 
       // Fee and payout details
-      PoolFee: '0.5%',
+      PoolFee: '1.0%',
       PayoutThreshold: '1.0',
       PayoutInterval: '3h',
 
       // For network hashrate (change for your favourite fork)
-      BlockTime: 14.4,
-      BlockReward: 420,
-      Unit: 'CLO',
+      BlockTime: 15.0,
+      BlockReward: 9,
+      Unit: 'ROL',
 
     }
   };

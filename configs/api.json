@@ -1,6 +1,6 @@
 {
   "threads": 2,
-  "coin": "clo",
+  "coin": "roller",
   "name": "main",
   "pplns": 9000,
   "proxy": {
@@ -45,7 +45,7 @@
 
   "api": {
     "enabled": true,
-    "listen": "0.0.0.0:8080",
+    "listen": "0.0.0.0:8081",
     "statsCollectInterval": "5s",
     "purgeInterval": "10m",
     "hashrateWindow": "30m",

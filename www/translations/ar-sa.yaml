@@ -19,7 +19,6 @@ menu:
 lang:
   arabic: عربي
   english: English
-  korean: Korean
 
 home:
   min_payout_threshold: الحد الأدنى للدفع
@@ -142,19 +141,19 @@ miners:
   miners: المعدنين
 
 wallet:
-  dapp_html: <a href="https://ethereum.org/">https://ethereum.org/</a>
-  online_html: <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com</a> Online wallet at myetherwallet.com
+  dapp_html: <a href="https://github.com/roller-project/mist-wallet-roller/releases">https://github.com/roller-project/mist-wallet-roller/releases</a>
+  online_html: <a href="http://wallet.roller.today/">http://wallet.roller.today/</a> Online wallet
 
 errors:
   header: الموقع متوقف مؤقتاً
   message: بالعادة هذه مشكلة مؤقتة والتعدين لا يتأثر.
 
 links:
-  blockExplorerLink: 'https://cloexplorer.org/'
-  blockExplorerLink_tx: 'https://cloexplorer.org/tx/'
-  blockExplorerLink_uncle: 'https://cloexplorer.org/uncle'
-  blockExplorerLink_block: 'https://cloexplorer.org/block/'
-  blockExplorerLink_address: 'https://cloexplorer.org/addr/'
+  blockExplorerLink: 'http://explorer.roller.today:3000'
+  blockExplorerLink_tx: 'http://explorer.roller.today:3000/tx/'
+  blockExplorerLink_uncle: 'http://explorer.roller.today:3000/block/'
+  blockExplorerLink_block: 'http://explorer.roller.today:3000/block/'
+  blockExplorerLink_address: 'http://explorer.roller.today:3000/address/'
 
 footer:
-  copyrights: '&copy; Brough to you by <a href="https://t.me/cryptomena_io" target="_blank"><i class="fa fa-telegram" style="color:#0088cc"></i> Cryptomena.io</a> | <strong>Donations:</strong><a href="https://etherscan.io/address/0x1ee22c7176497065DA26B71bcf2C499e52721ce3" rel="nofollow" target="_blank">0x1ee22c7176497065DA26B71bcf2C499e52721ce3</a>'
+  copyrights: '&copy; Brough to you by <a href="cryptopools.info" target="_blank"> Cryptopools.info</a>'

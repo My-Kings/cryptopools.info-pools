@@ -1,6 +1,6 @@
 {
   "threads": 2,
-  "coin": "clo",
+  "coin": "roller",
   "name": "main",
   "pplns": 9000,
   "proxy": {
