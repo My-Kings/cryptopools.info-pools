@@ -11,7 +11,7 @@
     "behindReverseProxy": false,
     "stratum": {
       "enabled": true,
-      "listen": "0.0.0.0:8008",
+      "listen": "0.0.0.0:8009",
       "timeout": "120s",
       "maxConn": 8192
     },

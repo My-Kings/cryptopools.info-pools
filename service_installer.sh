@@ -1,7 +1,7 @@
 #!/bin/bash
 #will make the services for the pool, based on the pool exe location of /usr/local/bin/poolbin
 coin="moac"
-user="brian"
+user="moac"
 config_dir="/home/$user/cryptopools.info-pools/configs"
 poolbinary="/home/$user/cryptopools.info-pools/build/bin/open-callisto-pool"
 nodename="moac"
