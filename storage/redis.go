@@ -10,7 +10,7 @@ import (
 
 	"gopkg.in/redis.v3"
 
-	"github.com/chainkorea/open-callisto-pool/util"
+	"github.com/My-Kings/open-reosc-pool/util"
 )
 
 type Config struct {
