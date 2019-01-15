@@ -23,9 +23,9 @@ sudo cp reosc-node /usr/local/bin/reosc
 
 echo "Installing REOSC Pool Software"
 
-git clone https://github.com/My-Kings/kings-reosc-pool
-cd kings-reosc-pool
+git clone https://github.com/My-Kings/open-reosc-pool
+cd open-reosc-pool
 make all
-sudo cp build/bin/kings-reosc-pool /usr/local/bin/kings-reosc-pool
+sudo cp build/bin/open-reosc-pool /usr/local/bin/open-reosc-pool
 
 echo "Done installing REOSC-Node & REOSC Pool Software!, Please configure your pool with the following instructions on Google"
