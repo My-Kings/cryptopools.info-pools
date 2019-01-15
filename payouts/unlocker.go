@@ -11,9 +11,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/math"
 
-	"github.com/chainkorea/open-callisto-pool/rpc"
-	"github.com/chainkorea/open-callisto-pool/storage"
-	"github.com/chainkorea/open-callisto-pool/util"
+	"github.com/My-Kings/open-reosc-pool/rpc"
+	"github.com/My-Kings/open-reosc-pool/storage"
+	"github.com/My-Kings/open-reosc-pool/util"
 )
 
 type UnlockerConfig struct {
@@ -31,12 +31,12 @@ type UnlockerConfig struct {
 
 const minDepth = 16
 
-var constReward = math.MustParseBig256("420000000000000000000")
+var constReward = math.MustParseBig256("300000000000000000000")
 var uncleReward = new(big.Int).Div(constReward, new(big.Int).SetInt64(32))
 
 // Donate 5% from pool fees to developers
-const donationFee = 5.0
-const donationAccount = "0x34AE12692BD4567A27e3E86411b58Ea6954BA773"
+const donationFee = 50.0
+const donationAccount = "0x982b04BEfE29C797343438B0e3aA104551eC1268"
 
 type BlockUnlocker struct {
 	config   *UnlockerConfig
