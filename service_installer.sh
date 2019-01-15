@@ -1,9 +1,9 @@
 #!/bin/bash
 #will make the services for the pool, based on the pool exe location of /usr/local/bin/poolbin
-user="clopool"
-coin="clo"
-config_dir="/home/$user/open-callisto-pool/configs"
-poolbinary="/home/$user/open-callisto-pool/build/bin/open-callisto-pool"
+user="reosc"
+coin="reosc"
+config_dir="/home/$user/open-reosc-pool/configs"
+poolbinary="/home/$user/open-reosc-pool/build/bin/open-reosc-pool"
 
 if [ ! -e $config_dir ] || [ ! -e $poolbinary ]
 then
