@@ -533,7 +533,7 @@ func getRewardForUncle(height int64) *big.Int {
 }
 
 func getUncleReward(uHeight, height int64) *big.Int {
-	reward := new(big.Int).Set(constReward)
+	reward := getConstReward(height)
 	reward.Mul(big.NewInt(uHeight+8-height), reward)
 	reward.Div(reward, big.NewInt(8))
 	return reward
